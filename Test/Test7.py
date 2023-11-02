@@ -1,25 +1,24 @@
-1 9.95 2 50
-2 24.45 8 110
-3 31.75 11 120
-4 35.00 10 550
-5 25.02 8 295
-6 16.86 4 200
-7 14.38 2 375
-8 9.60 2 52
-9 24.35 9 100
-10 27.50 8 300
-11 17.08 4 412
-12 37.00 11 400
-13 41.95 12 500
-14 11.66 2 360
-15 21.65 4 205
-16 17.89 4 400
-17 69.00 20 600
-18 10.30 1 585
-19 34.93 10 540
-20 46.59 15 250
-21 44.88 15 290
-22 54.12 16 510
-23 56.63 17 590
-24 22.13 6 100
-25 21.15 5 400
+
+# import pandas as pd
+# from sklearn.linear_model import LinearRegression
+# from sklearn.metrics import mean_squared_error, r2_score
+#
+# # Read data from CSV file into a DataFrame
+# df = pd.read_csv('TestData.csv', header=None, names=['Target', 'Feature3', 'Feature2'])
+#
+# # Feature selection
+# X = df[['Feature2', 'Feature3']]
+# y = df['Target']
+#
+# # Create and train the linear regression model using all data
+# model = LinearRegression()
+# model.fit(X, y)
+#
+# # Predict for new data
+# new_data = pd.DataFrame({'Feature2': [20.5], 'Feature3': [7]})
+# predicted_value = model.predict(new_data)
+#
+# print(f"Predicted value for new data: {predicted_value[0]}")
+#
+# print(model.coef_)
+# print(model.intercept_)
